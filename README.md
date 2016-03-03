@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add **require reflect_file_system_structure** to the beginning of your Podfile, then run **pod update**, the xcode project
+directory structure will like this:
+
+
 
 ## Development
 
