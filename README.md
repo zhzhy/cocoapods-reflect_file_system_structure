@@ -25,7 +25,7 @@ Or install it yourself as:
 Add this line to the beginning of your Podfile:
 
 ```ruby
-require 'reflect_file_system_structure'
+require 'cocoapods/reflect_file_system_structure'
 ```
 And then run:
 
