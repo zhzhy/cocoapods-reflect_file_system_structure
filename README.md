@@ -32,10 +32,10 @@ And then run:
  $ pod update
 
 the xcode project directory structure will like this:
-![After]()
+![After](https://github.com/zhzhy/cocoapods-reflect_file_system_structure/blob/master/resources/After.png)
 
 Before use this ruby patch, the default project directory is this:
-![Before]()
+![Before](https://github.com/zhzhy/cocoapods-reflect_file_system_structure/blob/master/resources/Before.png)
 
 So, with this patch, the Pod original file system will present in integrated xcode project,
 reading and finding your code will be easy.
