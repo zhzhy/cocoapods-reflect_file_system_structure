@@ -29,7 +29,9 @@ require reflect_file_system_structure
 ```
 And then run:
 
- $ pod update
+```
+$ pod update
+```
 
 the xcode project directory structure will like this:
 ![After](https://github.com/zhzhy/cocoapods-reflect_file_system_structure/blob/master/resources/After.png)
