@@ -22,10 +22,23 @@ Or install it yourself as:
 
 ## Usage
 
-Add **require reflect_file_system_structure** to the beginning of your Podfile, then run **pod update**, the xcode project
-directory structure will like this:
+Add this line to the beginning of your Podfile:
 
+```ruby
+require reflect_file_system_structure
+```
+And then run:
 
+ $ pod update
+
+the xcode project directory structure will like this:
+![After]()
+
+Before use this ruby patch, the default project directory is this:
+![Before]()
+
+So, with this patch, the Pod original file system will present in integrated xcode project,
+reading and finding your code will be easy.
 
 ## Development
 
@@ -41,4 +54,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
